@@ -1,4 +1,5 @@
 # Halcyon Stage Prop Calculator
+# Created by the Texas Engineering Rocketry Lab GNC Team
 
 import csv
 import json
