@@ -18,8 +18,7 @@ int main()
         vector<int> primes;
         primes.push_back(sequence.nextprime());
         int counter = 0;
-        // for even number, generate all primes, I am storing all values in arr\
-ay
+        // for even number, generate all primes, I am storing all values in array
         while (primes[counter] <= i)
         {
             int number = sequence.nextprime();
@@ -37,8 +36,7 @@ ay
                 int r = (primes[j] + diff) / 2;
                 cout << primes[j] << "," << diff << "," << r << endl;
                 /* old print
-        cout << "The number " << i << " is " << primes[j] << "+" << diff <<\
- endl;
+        cout << "The number " << i << " is " << primes[j] << "+" << diff << endl;
          */
                 break;
             }
