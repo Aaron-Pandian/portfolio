@@ -5,7 +5,9 @@ using std::cout;
 using std::vector;
 using namespace std;
 
-/* Write class pascal with method pascal(n) will output a pascal triangle with n rows. Also include a method print(int m) that prints the triangle but replaces coefficients % m != 0 with a *, and a space if equal to zero. */
+/* Write class pascal with method pascal(n) will output a pascal triangle with n rows. 
+   Also include a method print(int m) that prints the triangle but replaces coefficients 
+   % m != 0 with a *, and a space if equal to zero. */
 
 class pascal
 {
@@ -18,6 +20,7 @@ public:
     int get(int i, int j)
     {
         int x = 1;
+        
         // calculate values for i,j
         for (int k = 1; k <= j; k++)
         {
@@ -26,7 +29,7 @@ public:
         return x;
     };
 
-    // Method for printing pascals triangle
+    // Method for printing Pascals triangle
     void print()
     {
         for (int i = 1; i <= n; i++)
