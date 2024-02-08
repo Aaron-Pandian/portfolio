@@ -97,6 +97,7 @@ figure(6);
 plot(b,tc);
 xlabel("b");
 ylabel("t/c");
+
 %{ 
 % Why the Rakine Oval becomes a cylinder as b approaches zero: 
 % At high values of b, the oval is streched thin with a chord length much larger than the thickness. 
@@ -105,6 +106,7 @@ ylabel("t/c");
 % A t/c value of 1 represents a circle or clylinder.
 %}
 %% Lambda Source = .1, Lambda Sink = 1
+
 b = 1;
 v = 10;
 lambdasink = 1;
@@ -122,6 +124,7 @@ xlabel("x");
 ylabel("y");
 title("Sink Stronger");
 clabel(C,h,0);
+
 %% Lambda Source = 1, Lambda Sink = .1
 b = 1;
 v = 10;
