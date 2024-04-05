@@ -1,0 +1,23 @@
+FROM ubuntu:20.04
+
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y python3 && \
+    apt-get install -y python3-pip && \
+    apt-get install -y xmltodict && \
+    apt-get install -y logging && \
+    apt-get install -y statistics && \
+    apt-get install -y requests && \
+    apt-get install -y datetime && \
+    apt-get install -y math && \
+    apt-get install -y xmltodict
+
+RUN pip3 install pytest==8.0.0
+
+COPY iss_tracker.py /code/iss_tracker.py
+COPY test_iss_tracker.py /code/test_iss_tracker.py
+
+RUN chmod +rx /code/gen_ml_data.py
+RUN chmod +rx /code/test_gen_ml_data.py
+
+ENV PATH="/code:$PATH"
