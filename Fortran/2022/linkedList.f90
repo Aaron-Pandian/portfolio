@@ -1,5 +1,5 @@
 ! Aaron Pandian (anp3238) Program LinkedList
-  implicit none
+implicit none
 
   type node
      integer :: value
