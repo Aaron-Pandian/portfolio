@@ -54,21 +54,6 @@ contains
 
   end subroutine attach
 
-!  recursive subroutine DO_NOT_USE_node_attach( the_node,new_value )
-!    implicit none
-!    ! parameters
-!    type(node),intent(inout) :: the_node
-!    integer,intent(in) :: new_value
-
-!    if ( .not. associated(the_node%next) ) then
-!      allocate( the_node%next )
-!       the_node%next%value = new_value
-!    else
-!       call node_attach( the_node%next,new_value )
-!    end if
-
-!  end subroutine DO_NOT_USE_node_attach
-
   integer function length( the_list )
     implicit none
     type(list),intent(in),target :: the_list
