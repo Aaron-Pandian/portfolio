@@ -1,6 +1,4 @@
-File Edit Options Buffers Tools F90 Help
 ! Aaron Pandian (anp3238) Program LinkedList
-
   implicit none
 
   type node
