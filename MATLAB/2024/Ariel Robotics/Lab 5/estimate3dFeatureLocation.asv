@@ -72,8 +72,8 @@ for i = 1:length(rx)
     % Projection matrix for ith camera
     Pk = K*[RCIk tCk];
 
-    % Initialize projection point in meters
-    xk = pixelSize*rx{i};
+    % Initialize projection point
+    xk = rx{i};
 
     % Update H
     Pkr1 = Pk(1,:);
@@ -93,6 +93,8 @@ R = (pixelSize^2)*RcPrime;
 % Create Hr and z matrices
 Hr = H(:,1:end-1);
 z = -1*H(:,end);
+disp(Hr);
+disp(z);
 
 % Solve for error covarience matrix
 Px = (Hr'*(R^(-1))*Hr)^(-1);
