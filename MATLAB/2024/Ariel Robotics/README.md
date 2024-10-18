@@ -4,7 +4,7 @@
 My experience with Aerial Robotics (sadly, the folder was misspelled upon creation) constituted a comprehensive introduction to robotic aircraft. The course examined rotorcraft dynamics modeling, feedback control, sensing, state estimation, path planning, machine vision, and decision-making under uncertainty. Furthermore, we design an automation protocol, written in C++, that commands a quadcopter competing in a game.
 
 ## Tournament
-The tournament took the form of a capture-the-flag-like game called “pop the balloon,” in a speed trial or a race. Worked in teams of 2 to 3 to develop an optimal control framework.
+The tournament took the form of a capture-the-flag-like game called “pop the balloon,” in a speed trial or a race. Worked in teams of 2 to 3 to develop an optimal control framework. Although the code could not be featured, a technical write up of our first pass is depicted [here]().
 
 ## Projects
 To work towards our final competition, each project built on complexity and computational demands.
