@@ -1,0 +1,11 @@
+Flask==3.0.2
+redis==5.0.2
+hotqueue==0.2.8
+numpy
+requests==2.25.1
+datetime
+pytest==8.0.1
+plotly
+pandas
+kaleido
+matplotlib
