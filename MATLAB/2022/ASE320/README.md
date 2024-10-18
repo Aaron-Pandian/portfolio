@@ -1,4 +1,4 @@
-# Spacecraft Dynamics
+# Low-Speed Aerodynamics
 
 ## Overview
 This class covered the fundamental concepts, fluid statics, integral and differential analysis, detailed analysis of inviscid, incompressible flows, aerodynamics of airfoils and wings.
