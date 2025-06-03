@@ -30,12 +30,10 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 ### **C++**
 - [Ariel Robotics: Flight Controls](https://github.com/Aaron-Pandian/Projects/tree/main/C%2B%2B/2024/Ariel%20Robotics)  
   *C++ implementations for autonomous quadcopter and embedded systems with Texas Aerial Robotics.*
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=zW7SgIeaNmM" target="_blank">
-    <img src="https://github.com/user-attachments/assets/4b7e4cfa-7a87-4cfc-bdec-54f0f88e06b9" alt="Watch Texas Aerial Robotics on YouTube" width="300"/>
-  </a>
-</p>
-
+<div align="center">
+<video src="https://github.com/user-attachments/assets/7fdb64e1-130c-4d1a-9e19-8bfccefb6de5" alt="Aerial Robotics Course Tournament" width="300">
+[Watch Full Video](https://www.youtube.com/watch?v=zW7SgIeaNmM)
+</div>
   
 - [Bridging Barriers: AI Embedded Tools](https://github.com/Aaron-Pandian/Projects/tree/main/C%2B%2B/2022/Bridging%20Barriers)  
   *C++ codebase for the Good Systems “Making Smart Tools Work for Everyone” project.*  
