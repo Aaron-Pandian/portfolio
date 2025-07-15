@@ -22,23 +22,13 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 - [COE332: Software Engineering and Design](https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/COE332)  
   *Course projects focused on computational engineering and scientific programming in Python.*
   
-- [CAELUS Lab](https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/CAELUS)  
+- [Controls, Autonomy, Estimation, and Learning for Uncertain Systems (CAELUS) Lab](https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/CAELUS)  
   *Aerospace simulation and AI implementation for the CAELUS research group at UT Austin.*  
   [Learn more about CAELUS](https://sites.utexas.edu/bajones/)
 
 - [Texas Rocket Engineering Lab: GNC Flight Simulator](https://github.com/Aaron-Pandian/Projects/blob/main/Python/2023/TREL/gnc_flight_sim.py)  
   *Standalone Guidance, Navigation, and Control flight simulation script for Texas Rocket Engineering Lab.*  
   [Instagram: Texas Rocket Lab](https://www.instagram.com/texasrocketlab/?hl=en)
-
----
-
-### **MATLAB**
-- [Ariel Robotics UAV Digital Twin](https://github.com/Aaron-Pandian/Projects/tree/main/MATLAB/2024/Ariel%20Robotics)  
-  *Robotics algorithms and simulations for the Texas Aerial Robotics team (TAR).*  
-  [Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
-
-- [COE311K: Computational Engineering](https://github.com/Aaron-Pandian/Projects/tree/main/MATLAB/2021)  
-  *A collection of scientific MATLAB application from COE311K.*
 
 ---
 
@@ -55,3 +45,11 @@ A compilation of programs to demonstrate applied knowledge in various programmin
   [Learn more about Bridging Barriers: Good Systems](https://bridgingbarriers.utexas.edu/good-systems/projects/making-smart-tools-work-for-everyone)
 
 ---
+
+### **MATLAB**
+- [Ariel Robotics UAV Digital Twin](https://github.com/Aaron-Pandian/Projects/tree/main/MATLAB/2024/Ariel%20Robotics)  
+  *Robotics algorithms and simulations for the Texas Aerial Robotics team (TAR).*  
+  [Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
+
+- [COE311K: Computational Engineering](https://github.com/Aaron-Pandian/Projects/tree/main/MATLAB/2021)  
+  *A collection of scientific MATLAB application from COE311K.*
