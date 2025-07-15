@@ -27,13 +27,11 @@ A compilation of programs to demonstrate applied knowledge in various programmin
   
 - [Controls, Autonomy, Estimation, and Learning for Uncertain Systems (CAELUS) Lab](https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/CAELUS)  
 
-  *Aerospace simulation and AI implementation for the CAELUS research group at UT Austin.*  
-  [Learn more about CAELUS](https://sites.utexas.edu/bajones/)
+  *Aerospace simulation and AI implementation for the CAELUS research group at UT Austin.* [Learn more about CAELUS](https://sites.utexas.edu/bajones/)
 
 - [Texas Rocket Engineering Lab: GNC Flight Simulator](https://github.com/Aaron-Pandian/Projects/blob/main/Python/2023/TREL/gnc_flight_sim.py)  
 
-  *Standalone Guidance, Navigation, and Control flight simulation script for Texas Rocket Engineering Lab.*  
-  [Instagram: Texas Rocket Lab](https://www.instagram.com/texasrocketlab/?hl=en)
+  *Standalone Guidance, Navigation, and Control flight simulation script for Texas Rocket Engineering Lab.* [Instagram: Texas Rocket Lab](https://www.instagram.com/texasrocketlab/?hl=en)
 
 ---
 
@@ -48,13 +46,11 @@ A compilation of programs to demonstrate applied knowledge in various programmin
   
 - [Bridging Barriers: AI Embedded Tools](https://github.com/Aaron-Pandian/Projects/tree/main/C%2B%2B/2022/Bridging%20Barriers)  
 
-  *C++ codebase for the Good Systems “Making Smart Tools Work for Everyone” project.*  
-  [Learn more about Bridging Barriers: Good Systems](https://bridgingbarriers.utexas.edu/good-systems/projects/making-smart-tools-work-for-everyone)
+  *C++ codebase for the Good Systems “Making Smart Tools Work for Everyone” project.* [Learn more about Bridging Barriers: Good Systems](https://bridgingbarriers.utexas.edu/good-systems/projects/making-smart-tools-work-for-everyone)
 
 ---
 
 ### **MATLAB**
 - [Ariel Robotics UAV Digital Twin](https://github.com/Aaron-Pandian/Projects/tree/main/MATLAB/2024/Ariel%20Robotics)  
 
-  *Robotics algorithms and simulations for the Texas Aerial Robotics team (TAR).*  
-  [Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
+  *Robotics algorithms and simulations for the Texas Aerial Robotics team (TAR).* [Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
