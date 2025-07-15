@@ -19,9 +19,11 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 ---
 
 ### **Python**
-- [COE332: Software Engineering and Design](https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/COE332)  
 
-  *Course projects focused on computational engineering and scientific programming in Python.*
+
+- [REST API Analysis of Traffic Incident Data]([https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/COE332](https://github.com/Aaron-Pandian/austin-traffic-analysis))  
+
+  *Web application enabling in-depth data analysis of public Austin traffic records.*
   
 - [Controls, Autonomy, Estimation, and Learning for Uncertain Systems (CAELUS) Lab](https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/CAELUS)  
 
@@ -56,7 +58,3 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 
   *Robotics algorithms and simulations for the Texas Aerial Robotics team (TAR).*  
   [Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
-
-- [COE311K: Computational Engineering](https://github.com/Aaron-Pandian/Projects/tree/main/MATLAB/2021)  
-
-  *A collection of scientific MATLAB application from COE311K.*
