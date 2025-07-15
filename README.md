@@ -21,7 +21,7 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 ### **Python**
 
 
-- [REST API Analysis of Traffic Incident Data]([https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/COE332](https://github.com/Aaron-Pandian/austin-traffic-analysis))  
+- [REST API Analysis of Traffic Incident Data](https://github.com/Aaron-Pandian/austin-traffic-analysis)
 
   *Web application enabling in-depth data analysis of public Austin traffic records.*
   
