@@ -3,6 +3,10 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 
 ## 🚀 Project Highlights
 
+### **Fullstack**
+- [Llama Hackathon NYC 2025](https://github.com/Aaron-Pandian/llamahackathon4-guia)
+  *Leveraged Llama Scout 4 large context window to create immigration documentation support application with AI genererated video calls.*  
+
 ### **Python**
 - [COE332: Software Engineering and Design](https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/COE332)  
   *Course projects focused on computational engineering and scientific programming in Python.*
