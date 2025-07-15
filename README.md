@@ -5,12 +5,15 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 
 ### **Fullstack**
 - [Llama Hackathon NYC 2025](https://github.com/Aaron-Pandian/llamahackathon4-guia)
+  
   *Leveraged Llama Scout 4 large context window to create immigration documentation support application with AI genererated video calls.*
 
 - [Network Assistant Web Application](https://whatsmycity.site/)
+
   *AI supported repository for network building.*
 
 - [South Asian Provider Database](https://findsouthasianmhc.org/)
+
   *The largest searchable database for South Asian mental health providers.*
 
 ---
