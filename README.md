@@ -6,7 +6,7 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 ### **Fullstack**
 - LifestyleScout **Coming Soon**
 
-  *Wed application applying AI Websearch for discovery.* Current Tech Stack: JavaScript, HTML, CSS, Firestore, Cloud Run, External API (Stripe, AI Websearch)
+  *Wed application applying AI websearch for discovery.* Current Tech Stack: JavaScript, HTML, CSS, Firestore, Cloud Run, External API (Stripe, AI Websearch)
   
 - [Llama Hackathon NYC 2025](https://github.com/Aaron-Pandian/llamahackathon4-guia)
   
