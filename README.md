@@ -4,6 +4,10 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 ## 🚀 Project Highlights
 
 ### **Fullstack**
+- LifestyleScout **Coming Soon**
+
+  *Wed application applying AI Websearch for discovery.* Current Tech Stack: JavaScript, HTML, CSS, Firestore, Cloud Run, External API (Stripe, AI Websearch)
+  
 - [Llama Hackathon NYC 2025](https://github.com/Aaron-Pandian/llamahackathon4-guia)
   
   *Leveraged Llama Scout 4 large context window to create immigration documentation support application with AI genererated video calls.*
