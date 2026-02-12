@@ -1,6 +1,6 @@
 # Initializing GMM Class and Imports
 import numpy as np
-from matplotlib import pyplot as plt
+from matplotlib import pyplot as plt # Utilizing NVIDIA CUDA through Numba just-in-time compiler
 from numba import jit, cuda, njit, prange
 from scipy.stats import multivariate_normal as mvn
 from sklearn.datasets import make_spd_matrix
