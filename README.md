@@ -42,7 +42,7 @@ A compilation of code to demonstrate applied knowledge in various programming la
 ### **C++**
 - [Ariel Robotics: Flight Controls](https://github.com/Aaron-Pandian/texas-aerial-robotics)  
 
-  *C++ implementations for autonomous quadcopter.*
+  *Algorithms for autonomous quadcopter maneuvers.*
 <div align="center">
 <video src="https://github.com/user-attachments/assets/7fdb64e1-130c-4d1a-9e19-8bfccefb6de5" alt="Aerial Robotics Course Tournament" width="300">
 [Watch Full Video](https://www.youtube.com/watch?v=zW7SgIeaNmM)
