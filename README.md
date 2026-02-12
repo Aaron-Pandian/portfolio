@@ -40,9 +40,9 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 ---
 
 ### **C++**
-- [Ariel Robotics: Flight Controls](https://github.com/Aaron-Pandian/Projects/tree/main/C%2B%2B/2024/Ariel%20Robotics)  
+- [Ariel Robotics: Flight Controls](https://github.com/Aaron-Pandian/texas-aerial-robotics)  
 
-  *C++ implementations for autonomous quadcopter and embedded systems with Texas Aerial Robotics.*
+  *C++ implementations for autonomous quadcopter.*
 <div align="center">
 <video src="https://github.com/user-attachments/assets/7fdb64e1-130c-4d1a-9e19-8bfccefb6de5" alt="Aerial Robotics Course Tournament" width="300">
 [Watch Full Video](https://www.youtube.com/watch?v=zW7SgIeaNmM)
@@ -50,11 +50,11 @@ A compilation of programs to demonstrate applied knowledge in various programmin
   
 - [Bridging Barriers: AI Embedded Tools](https://github.com/Aaron-Pandian/Projects/tree/main/C%2B%2B/2022/Bridging%20Barriers)  
 
-  *C++ codebase for the Good Systems “Making Smart Tools Work for Everyone” project.* [Learn more about Bridging Barriers: Good Systems](https://bridgingbarriers.utexas.edu/good-systems/projects/making-smart-tools-work-for-everyone)
+  *C++ codebase for the Good Systems embedded AI.* [Learn more about Bridging Barriers: Good Systems](https://bridgingbarriers.utexas.edu/good-systems/projects/making-smart-tools-work-for-everyone)
 
 ---
 
 ### **MATLAB**
-- [Ariel Robotics UAV Digital Twin](https://github.com/Aaron-Pandian/Projects/tree/main/MATLAB/2024/Ariel%20Robotics)  
+- [Ariel Robotics: UAV Digital Twin](https://github.com/Aaron-Pandian/texas-aerial-robotics)  
 
-  *Robotics algorithms and simulations for the Texas Aerial Robotics team (TAR).* [Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
+  *[Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
