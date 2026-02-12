@@ -1,16 +1,9 @@
 # Overview
-A compilation of code to demonstrate applied knowledge in various programming languages and software.
+A compilation of code to demonstrate applied knowledge in various programming languages and software during my undergraduate career.
 
 ## 🚀 Project Highlights
 
 ### **Fullstack**
-- LifestyleScout **Coming Soon**
-
-  *Web application applying AI search engine for discovery.* Current Tech Stack: JavaScript, HTML, CSS, Firestore, Cloud Run, External API (Stripe, AI Websearch)
-  
-- [Llama Hackathon NYC 2025](https://github.com/Aaron-Pandian/llamahackathon4-guia)
-  
-  *Leveraged Llama Scout 4 large context window to create immigration documentation support application with AI genererated video calls.*
 
 - [Network Assistant Web Application](https://whatsmycity.site/)
 
@@ -24,37 +17,10 @@ A compilation of code to demonstrate applied knowledge in various programming la
 
 ### **Python**
 
-
 - [REST API Analysis of Traffic Incident Data](https://github.com/Aaron-Pandian/austin-traffic-analysis)
 
   *Web application enabling in-depth data analysis of public Austin traffic records.*
-  
-- [Controls, Autonomy, Estimation, and Learning for Uncertain Systems (CAELUS) Lab](https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/CAELUS)  
-
-  *Aerospace modeling and reinforcement learning for the CAELUS research group.* [Learn more about CAELUS](https://sites.utexas.edu/bajones/publications/)
 
 - [Texas Rocket Engineering Lab: GNC Flight Simulator](https://github.com/Aaron-Pandian/Projects/blob/main/Python/2023/TREL/gnc_flight_sim.py)  
 
   *Standalone Guidance, Navigation, and Control flight simulation script for Texas Rocket Engineering Lab.* [Learn more about TREL](https://aaronpandian.com/trel/)
-
----
-
-### **C++**
-- [Ariel Robotics: Flight Controls](https://github.com/Aaron-Pandian/texas-aerial-robotics)  
-
-  *Algorithms for autonomous quadcopter maneuvers.*
-<div align="center">
-<video src="https://github.com/user-attachments/assets/7fdb64e1-130c-4d1a-9e19-8bfccefb6de5" alt="Aerial Robotics Course Tournament" width="300">
-[Watch Full Video](https://www.youtube.com/watch?v=zW7SgIeaNmM)
-</div>
-  
-- [Bridging Barriers: AI Embedded Tools](https://github.com/Aaron-Pandian/Projects/tree/main/C%2B%2B/2022/Bridging%20Barriers)  
-
-  *Codebase for Good Systems embedded AI.* [Learn more about Good Systems](https://aaronpandian.com/good-systems/)
-
----
-
-### **MATLAB**
-- [Ariel Robotics: UAV Digital Twin](https://github.com/Aaron-Pandian/texas-aerial-robotics)  
-
-  *Developed a high fidelity digital quadrotor twin.* [Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
