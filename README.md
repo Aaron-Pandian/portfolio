@@ -1,5 +1,5 @@
 # Overview
-A compilation of programs to demonstrate applied knowledge in various programming languages and software.
+A compilation of code to demonstrate applied knowledge in various programming languages and software.
 
 ## 🚀 Project Highlights
 
@@ -14,7 +14,7 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 
 - [Network Assistant Web Application](https://whatsmycity.site/)
 
-  *AI supported repository for network building.*
+  *AI supported repository for social networks.*
 
 - [South Asian Provider Database](https://findsouthasianmhc.org/)
 
@@ -31,11 +31,11 @@ A compilation of programs to demonstrate applied knowledge in various programmin
   
 - [Controls, Autonomy, Estimation, and Learning for Uncertain Systems (CAELUS) Lab](https://github.com/Aaron-Pandian/Projects/tree/main/Python/2024/CAELUS)  
 
-  *Aerospace simulation and AI implementation for the CAELUS research group at UT Austin.* [Learn more about CAELUS](https://sites.utexas.edu/bajones/)
+  *Aerospace modeling and reinforcement learning for the CAELUS research group.* [Learn more about CAELUS](https://sites.utexas.edu/bajones/publications/)
 
 - [Texas Rocket Engineering Lab: GNC Flight Simulator](https://github.com/Aaron-Pandian/Projects/blob/main/Python/2023/TREL/gnc_flight_sim.py)  
 
-  *Standalone Guidance, Navigation, and Control flight simulation script for Texas Rocket Engineering Lab.* [Instagram: Texas Rocket Lab](https://www.instagram.com/texasrocketlab/?hl=en)
+  *Standalone Guidance, Navigation, and Control flight simulation script for Texas Rocket Engineering Lab.* [Learn more about TREL](https://aaronpandian.com/trel/)
 
 ---
 
@@ -50,11 +50,11 @@ A compilation of programs to demonstrate applied knowledge in various programmin
   
 - [Bridging Barriers: AI Embedded Tools](https://github.com/Aaron-Pandian/Projects/tree/main/C%2B%2B/2022/Bridging%20Barriers)  
 
-  *C++ codebase for the Good Systems embedded AI.* [Learn more about Bridging Barriers: Good Systems](https://bridgingbarriers.utexas.edu/good-systems/projects/making-smart-tools-work-for-everyone)
+  *Codebase for Good Systems embedded AI.* [Learn more about Good Systems](https://aaronpandian.com/good-systems/)
 
 ---
 
 ### **MATLAB**
 - [Ariel Robotics: UAV Digital Twin](https://github.com/Aaron-Pandian/texas-aerial-robotics)  
 
-  *Developed a high fidelity digital quadrotor twin*[Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
+  *Developed a high fidelity digital quadrotor twin.* [Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
