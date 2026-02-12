@@ -5,7 +5,7 @@ A compilation of code to demonstrate applied knowledge in various programming la
 
 - [Texas Rocket Engineering Lab: GNC Flight Simulator](https://github.com/Aaron-Pandian/Projects/blob/main/Python/2023/TREL/gnc_flight_sim.py)  
 
-  *Standalone Guidance, Navigation, and Control flight simulation script for Texas Rocket Engineering Lab.* [Learn more about TREL](https://aaronpandian.com/trel/)
+  *Standalone Guidance, Navigation, and Control flight simulation script for Texas Rocket Engineering Lab.* [Learn more about TREL.](https://aaronpandian.com/trel/)
 
 - [REST API Analysis of Traffic Incident Data](https://github.com/Aaron-Pandian/austin-traffic-analysis)
 
