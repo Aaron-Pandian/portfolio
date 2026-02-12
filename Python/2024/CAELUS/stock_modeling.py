@@ -14,7 +14,6 @@ import pickle
 
 from sklearn.preprocessing import StandardScaler
 
-
 # Let's use AAPL (Apple), MSI (Motorola), SBUX (Starbucks)
 def get_data():
   # returns a T x 3 list of stock prices
@@ -24,8 +23,6 @@ def get_data():
   # 2 = SBUX
   df = pd.read_csv('aapl_msi_sbux.csv')
   return df.values
-
-
 
 ### The experience replay memory ###
 class ReplayBuffer:
@@ -54,10 +51,6 @@ class ReplayBuffer:
                 r=self.rews_buf[idxs],
                 d=self.done_buf[idxs])
 
-
-
-
-
 def get_scaler(env):
   # return scikit-learn scaler object to scale the states
   # Note: you could also populate the replay buffer here
@@ -74,15 +67,9 @@ def get_scaler(env):
   scaler.fit(states)
   return scaler
 
-
-
-
 def maybe_make_dir(directory):
   if not os.path.exists(directory):
     os.makedirs(directory)
-
-
-
 
 def mlp(input_dim, n_action, n_hidden_layers=1, hidden_dim=32):
   """ A multi-layer perceptron """
@@ -104,9 +91,6 @@ def mlp(input_dim, n_action, n_hidden_layers=1, hidden_dim=32):
   model.compile(loss='mse', optimizer='adam')
   print((model.summary()))
   return model
-
-
-
 
 class MultiStockEnv:
   """
@@ -157,14 +141,12 @@ class MultiStockEnv:
 
     self.reset()
 
-
   def reset(self):
     self.cur_step = 0
     self.stock_owned = np.zeros(self.n_stock)
     self.stock_price = self.stock_price_history[self.cur_step]
     self.cash_in_hand = self.initial_investment
     return self._get_obs()
-
 
   def step(self, action):
     assert action in self.action_space
@@ -194,7 +176,6 @@ class MultiStockEnv:
     # conform to the Gym API
     return self._get_obs(), reward, done, info
 
-
   def _get_obs(self):
     obs = np.empty(self.state_dim)
     obs[:self.n_stock] = self.stock_owned
@@ -202,11 +183,8 @@ class MultiStockEnv:
     obs[-1] = self.cash_in_hand
     return obs
     
-
-
   def _get_val(self):
     return self.stock_owned.dot(self.stock_price) + self.cash_in_hand
-
 
   def _trade(self, action):
     # index the action we want to perform
@@ -247,10 +225,6 @@ class MultiStockEnv:
           else:
             can_buy = False
 
-
-
-
-
 class DQNAgent(object):
   def __init__(self, state_size, action_size):
     self.state_size = state_size
@@ -262,10 +236,8 @@ class DQNAgent(object):
     self.epsilon_decay = 0.995
     self.model = mlp(state_size, action_size)
 
-
   def update_replay_memory(self, state, action, reward, next_state, done):
     self.memory.store(state, action, reward, next_state, done)
-
 
   def act(self, state):
     if np.random.rand() <= self.epsilon:
@@ -273,12 +245,10 @@ class DQNAgent(object):
     act_values = self.model.predict(state)
     return np.argmax(act_values[0])  # returns action
 
-
   def replay(self, batch_size=32):
     # first check if replay buffer contains enough data
     if self.memory.size < batch_size:
       return
-
     # sample a batch of data from the replay memory
     minibatch = self.memory.sample_batch(batch_size)
     states = minibatch['s']
@@ -286,10 +256,8 @@ class DQNAgent(object):
     rewards = minibatch['r']
     next_states = minibatch['s2']
     done = minibatch['d']
-
     # Calculate the tentative target: Q(s',a)
     target = rewards + (1 - done) * self.gamma * np.amax(self.model.predict(next_states), axis=1)
-
     # With the Keras API, the target (usually) must have the same
     # shape as the predictions.
     # However, we only need to update the network for the actions
@@ -300,21 +268,16 @@ class DQNAgent(object):
     # Q(s,a)
     target_full = self.model.predict(states)
     target_full[np.arange(batch_size), actions] = target
-
     # Run one training step
     self.model.train_on_batch(states, target_full)
-
     if self.epsilon > self.epsilon_min:
       self.epsilon *= self.epsilon_decay
 
-
-  def load(self, name):
+def load(self, name):
     self.model.load_weights(name)
 
-
-  def save(self, name):
+def save(self, name):
     self.model.save_weights(name)
-
 
 def play_one_episode(agent, env, is_train):
   # note: after transforming states are already 1xD
@@ -332,8 +295,7 @@ def play_one_episode(agent, env, is_train):
     state = next_state
 
   return info['cur_val']
-
-
+  
 
 if __name__ == '__main__':
 
@@ -343,7 +305,6 @@ if __name__ == '__main__':
   num_episodes = 2000
   batch_size = 32
   initial_investment = 20000
-
 
   parser = argparse.ArgumentParser()
   parser.add_argument('-m', '--mode', type=str, required=True,
@@ -401,7 +362,6 @@ if __name__ == '__main__':
     # save the scaler
     with open(f'{models_folder}/scaler.pkl', 'wb') as f:
       pickle.dump(scaler, f)
-
 
   # save portfolio value for each episode
   np.save(f'{rewards_folder}/{args.mode}.npy', portfolio_value)
