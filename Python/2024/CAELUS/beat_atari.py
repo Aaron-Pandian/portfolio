@@ -18,10 +18,6 @@ SEED = 0
 # Class to store memory for experience replay concept
 class RingBuf:
     def __init__(self, size):
-        # Pro-tip: when implementing a ring buffer, always allocate one extra element,
-        # this way, self.start == self.end always means the buffer is EMPTY, whereas
-        # if you allocate exactly the right number of elements, it could also mean
-        # the buffer is full. This greatly simplifies the rest of the code.
         self.data = [None] * (size + 1)
         self.start = 0
         self.end = 0
@@ -29,8 +25,7 @@ class RingBuf:
     def append(self, element):
         self.data[self.end] = element
         self.end = (self.end + 1) % len(self.data)
-        # end == start and yet we just added one element. This means the buffer has one
-        # too many element. Remove the first element by incrementing start.
+        # end == start and yet we just added one element. This means the buffer has one too many element. Remove the first element by incrementing start.
         if self.end == self.start:
             self.start = (self.start + 1) % len(self.data)
         
@@ -53,7 +48,7 @@ class RingBuf:
             out.append(self.__getitem__(np.random.randint(0, self.__len__())))
         return out
 
-# Function definitions
+# Function Definitions
 
 # Note: pass in_keras=False to use this function with raw numbers of numpy arrays for testing
 def huber_loss(a, b, in_keras=True):
@@ -146,7 +141,6 @@ def get_epsilon_for_iteration(iteration):
     return epsilon
 
 # Experience replay, at each step, play one step in the game and add all taken state from step just taken to table, then fit based on the memory, this table includes the rewards for each action, i.e. memory instance. 
-
 def q_iteration(env, model, state, iteration, memory):
     # Update seed when called
     SEED + 1
@@ -223,7 +217,7 @@ def main():
     env = gym.make("BreakoutDeterministic-v4", render_mode="human")
     frame = env.reset()[0]
 
-    # Key animation iteration ----------------------------------------------
+    # Key animation iteration
     for episode in range(n_episodes):
         print(f"Episode: {episode} Run")
 
@@ -256,4 +250,3 @@ def main():
 # Call to main function
 if __name__ == '__main__':
     main()
-    
