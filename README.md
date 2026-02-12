@@ -57,4 +57,4 @@ A compilation of programs to demonstrate applied knowledge in various programmin
 ### **MATLAB**
 - [Ariel Robotics: UAV Digital Twin](https://github.com/Aaron-Pandian/texas-aerial-robotics)  
 
-  *[Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
+  *Developed a high fidelity digital quadrotor twin*[Learn more about Texas Aerial Robotics](https://www.texasaerialrobotics.com/)
